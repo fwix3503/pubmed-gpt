@@ -42,7 +42,7 @@ def query_gpt(
     response = openai.ChatCompletion.create(
         model=model,
         messages=[
-            {"role": "system", "content": 'You are a helpful assistant. Your answers must always be a presentation in the remarkjs markdown format.'},
+            {"role": "system", "content": 'You are a helpful assistant. Your answers must always be a presentation in the marp markdown format.'},
             {"role": "user", "content": query},
         ]
     )
