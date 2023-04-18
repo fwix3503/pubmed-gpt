@@ -32,7 +32,7 @@ def query_gpt(
     Query pubmed and then query gpt
     """
     query = f"""
-    Please create a presentation that summarizes each of the following abstracts with at most 6 bullet points each. One slide for each of the articles. On each slide, you must include the title of the article, and the name of the authors. Avoid jargon.
+    Please create a presentation that summarizes each of the following abstracts with at most 4 bullet points each. One slide for each of the articles. On each slide, you must include the title of the article, and the name of the authors. Avoid jargon.
 
     Add a first title slide, which must include only the title:"{topic}, as summarized by {model}".
 
